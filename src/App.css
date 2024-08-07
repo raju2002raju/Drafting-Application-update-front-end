@@ -175,11 +175,12 @@ img {
 
 .setting_Container_2{
   width: 100%;
-  max-width: 900px;
+  max-width: 750px;
   height: 100%;
   min-height: 1200px;
   background: #fff;
- 
+ text-align: center;
+ padding: 20px;
 }
 
 .prompt_update_box{
