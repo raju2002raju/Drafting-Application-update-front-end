@@ -151,12 +151,14 @@ const handlePrayer = () => {
   return (
     <div className='setting_container'>
       <div className='setting_Container_2'>
+        <h1>UPDATE PROMPTS HERE</h1>
         <div>
             <div  style={{ display: 'flex', alignItems: 'center' }}>
               <input
                 type="text"
                 className="prompt_update_box"
                 onChange={(e) => setPromptCourt(e.target.value)}
+                placeholder='Update Court Prompt here ...............'
               />
               <img 
                 src='../Images/arrow.png' 
@@ -174,6 +176,7 @@ const handlePrayer = () => {
                 type="text"
                 className="prompt_update_box"
                 onChange={(e) => setPromptTittle(e.target.value)}
+                 placeholder='Update Title Prompt here ...............'
               />
               <img 
                 src='../Images/arrow.png' 
@@ -189,6 +192,7 @@ const handlePrayer = () => {
                 type="text"
                 className="prompt_update_box"
                 onChange={(e) => setPromptFacts(e.target.value)}
+                 placeholder='Update Facts Prompt here ...............'
               />
               <img 
                 src='../Images/arrow.png' 
@@ -204,6 +208,7 @@ const handlePrayer = () => {
                 type="text"
                 className="prompt_update_box"
                 onChange={(e) => setPromptsGround(e.target.value)}
+                 placeholder='Update Ground Prompt here ...............'
               />
               <img 
                 src='../Images/arrow.png' 
@@ -220,6 +225,7 @@ const handlePrayer = () => {
                 type="text"
                 className="prompt_update_box"
                 onChange={(e) => setPromptCourtFee(e.target.value)}
+                 placeholder='Update Court Fees Prompt here ...............'
               />
               <img 
                 src='../Images/arrow.png' 
@@ -234,6 +240,7 @@ const handlePrayer = () => {
                 type="text"
                 className="prompt_update_box"
                 onChange={(e) => setPromptPrayer(e.target.value)}
+                 placeholder='Update Prayer Prompt here ...............'
               />
               <img 
                 src='../Images/arrow.png' 
