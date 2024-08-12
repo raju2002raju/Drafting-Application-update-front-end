@@ -8,12 +8,16 @@ import OutputComponent from './Componets/Transcript';
 import DraftForm from './Componets/DraftForm';
 import './App.css'
 import UpdatePrompt from './Componets/UpdatePrompt';
+import Navbar from './Componets/Navbar';
+import UploadImagePdf from './Componets/UploadImagePdf';
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Navbar/>} />
+        <Route path='/new_draft' element={<Home/>}  />
+        <Route path='upload_documents' element={<UploadImagePdf/>} />
         <Route path="/section1" element={<DraftForm />} />
         <Route path='/section2' element={<InputBox1 />} />
         <Route path='/section3' element={<InputBox2 />} />
