@@ -147,7 +147,7 @@ const UploadImagePdf = () => {
     setIsLoading(true); // Set loading to true when processing starts
 
     try {
-      const response = await axios.post('http://localhost:8080/text/extract-text', { text: extractedText.join('\n') });
+      const response = await axios.post('https://update-drafting-application-back-end.onrender.com/text/extract-text', { text: extractedText.join('\n') });
       if (typeof response.data === 'object' && response.data !== null) {
         setProcessedText(response.data);
         setIsDataDisplayed(true);
